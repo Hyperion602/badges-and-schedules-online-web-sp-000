@@ -20,7 +20,7 @@ def assign_rooms(speakers)
   arr2
 end
 
-def printer
+def printer(attendees)
   batch_badge_creator
   assign_rooms
 end
