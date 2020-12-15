@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(names)
   arr = []
-  names.each {|names2| names2 << arr}
+  names.each {|names2| "Hello, my name is #{names2}." << arr}
   arr
 end
 
