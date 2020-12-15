@@ -21,5 +21,7 @@ def assign_rooms(speakers)
 end
 
 def printer(names3)
-  assign_rooms(names3)
+  names3.each do |names|
+    assign_rooms(names)
+  end
 end
