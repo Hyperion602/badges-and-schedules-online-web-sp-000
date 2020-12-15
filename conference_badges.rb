@@ -22,4 +22,5 @@ end
 
 def printer(attendees)
   assign_rooms(attendees)
+  binding.pry
 end
