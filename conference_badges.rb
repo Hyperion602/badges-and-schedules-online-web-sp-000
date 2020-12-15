@@ -19,9 +19,3 @@ def assign_rooms(speakers)
   end
   arr2
 end
-
-def printer(names3)
-  names3.each do |names|
-    assign_rooms(names)
-  end
-end
